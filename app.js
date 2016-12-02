@@ -68,7 +68,7 @@ app.use(function (req, res, next) {
 });
 
 app.get('/api/test',function(req,res) {
-  res.send('Hello user, this is Jenkins demo2');
+  res.send('We are on demo');
 });
 
 app.listen(3333);
