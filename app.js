@@ -68,7 +68,7 @@ app.use(function (req, res, next) {
 });
 
 app.get('/api/test',function(req,res) {
-  res.send('test');
+  res.send('Tapan');
 });
 
 app.listen(3333);
