@@ -68,7 +68,7 @@ app.use(function (req, res, next) {
 });
 
 app.get('/api/test',function(req,res) {
-  res.send('We are on demo');
+  res.send('test');
 });
 
 app.listen(3333);
